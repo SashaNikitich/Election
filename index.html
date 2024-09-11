@@ -1,79 +1,73 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>КЄНТ</title>
+    <title>КЄНТ - Голосуй за прогрес</title>
     <link rel="stylesheet" href="CSS/style.css">
     <script defer src="JS/script.js"></script>
+    <script defer src="JS/menu.js"></script>
 </head>
 <body>
 <header>
-    <div class="container hidden">
-        <section class="intro">
-            <nav>
-                <div class="logo">КЄНТ</div>
-                <div class="nav-links">
-                    <a href="#platform">Плани</a>
-                    <a href="#candidate">Кандидат</a>
-                    <a href="#our-team">Команда</a>
-                    <a href="#contact">Зв'язок</a>
-                </div>
-            </nav>
-            <div class="hero">
-                <div class="hero-content">
-                    <h1>Голосуй за прогрес</h1>
-                    <p>Створимо кращий ліцей разом</p>
-                    <div class="cta-buttons">
-                        <a href="#platform">Дізнатись більше</a>
-                    </div>
-                    
-                </div>
-                <div class="hero-image">
-                    <img src="https://placehold.co/600x300" alt="Candidate Image">
+    <div class="container">
+        <nav class="nav">
+            <div class="logo">КЄНТ</div>
+            <button class="menu-btn" aria-label="Відкрити меню">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </button>
+            <div class="nav-links">
+                <a href="#platform">Плани</a>
+                <a href="#candidate">Кандидат</a>
+                <a href="#our-team">Команда</a>
+                <a href="#contact">Зв'язок</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content hidden">
+                <h1>Голосуй за прогрес</h1>
+                <p>Створимо кращий ліцей разом</p>
+                <div class="cta-buttons">
+                    <a href="#platform">Дізнатись більше</a>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 </header>
 
 <main>
-    <section id="platform" class="section hidden">
+    <section id="platform" class="section">
         <div class="container">
-            <h2 class="section-title">Наші плани</h2>
+            <h2 class="section-title hidden">Наші плани</h2>
             <div class="platform-points">
-                <div class="platform-point">
+                <div class="platform-point hidden">
                     <h3>Канцелярія</h3>
-                    <p>Implement programs to enhance learning opportunities and support student achievement.</p>
+                    <p>Впровадження програм для покращення можливостей навчання та підтримки досягнень студентів.</p>
                 </div>
-                <div class="platform-point">
+                <div class="platform-point hidden">
                     <h3>Food court</h3>
-                    <p>Prioritize mental health resources and create a more inclusive campus environment.</p>
+                    <p>Пріоритет ресурсів для психічного здоров'я та створення більш інклюзивного середовища кампусу.</p>
                 </div>
-                <div class="platform-point">
+                <div class="platform-point hidden">
                     <h3>Благодійність</h3>
-                    <p>Modernize facilities and enhance technology infrastructure for better learning experiences.</p>
+                    <p>Модернізація об'єктів та вдосконалення технологічної інфраструктури для кращого навчального досвіду.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="candidate" class="section ">
-        <div class="container hidden">
-            
-            <div class="candidate-info">
+    <section id="candidate" class="section">
+        <div class="container">
+            <div class="candidate-info hidden">
                 <div class="candidate-bio">
                     <h2 class="section-title">Кандидат Ради ліцеїстів</h2>
                     <h3>Нікітіч Олександр</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
-                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Олександр - це енергійний та відданий студент, який прагне зробити наш ліцей кращим місцем для навчання та розвитку. Його візія включає інноваційні ідеї щодо покращення студентського життя та академічного середовища.</p>
                 </div>
                 <div class="candidate-image">
-                    <img src="https://placehold.co/400x300" alt="Jane Smith">
+                    <img src="https://placehold.co/600x400" alt="Нікітіч Олександр">
                 </div>
             </div>
         </div>
@@ -84,37 +78,37 @@
             <h2 class="section-title hidden">Наша команда</h2>
             <div class="team-grid">
                 <div class="team hidden">
-                    <img src="https://placehold.co/300x300" alt="">
+                    <img src="https://placehold.co/600x400" alt="Нікітіч Олександр">
                     <div class="endorser">Нікітіч Олександр</div>
-                    <p>Ліцеїстка 11-Б групи</p>
+                    <p>Ліцеїст 11-Б групи</p>
                 </div>
                 <div class="team hidden">
-                    <img src="https://placehold.co/300x300" alt="">
+                    <img src="https://placehold.co/600x400" alt="Максим Шапіренко">
                     <div class="endorser">Максим Шапіренко</div>
-                    <p>Ліцеїстка 11-Б групи</p>
+                    <p>Ліцеїст 11-Б групи</p>
                 </div>
                 <div class="team hidden">
-                    <img src="https://placehold.co/300x300" alt="">
+                    <img src="https://placehold.co/600x400" alt="Артем Тищенко">
                     <div class="endorser">Артем Тищенко</div>
                     <p>Ліцеїст 11-Б групи</p>
                 </div>
                 <div class="team hidden">
-                    <img src="https://placehold.co/300x300" alt="">
+                    <img src="https://placehold.co/600x400" alt="Гринь Максим">
                     <div class="endorser">Гринь Максим</div>
-                    <p>Ліцеїст 11-Б групи</p>
+                    <p>Ліцеїст 11-Г групи</p>
                 </div>
                 <div class="team hidden">
-                    <img src="https://placehold.co/300x300" alt="">
+                    <img src="https://placehold.co/600x400" alt="Смолянова Ніка">
                     <div class="endorser">Смолянова Ніка</div>
                     <p>Ліцеїстка 11-Б групи</p>
                 </div>
                 <div class="team hidden">
-                    <img src="https://placehold.co/300x300" alt="">
-                    <div class="endorser">Скримінська Окасана</div>
+                    <img src="https://placehold.co/600x400" alt="Скримінська Оксана">
+                    <div class="endorser">Скримінська Оксана</div>
                     <p>Ліцеїстка 11-Б групи</p>
                 </div>
                 <div class="team hidden">
-                    <img src="https://placehold.co/300x300" alt="">
+                    <img src="https://placehold.co/600x400" alt="Башинська Вікторія">
                     <div class="endorser">Башинська Вікторія</div>
                     <p>Ліцеїстка 11-Б групи</p>
                 </div>
@@ -124,12 +118,12 @@
 
     <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title light">Зв'язок</h2>
-            <form class="contact-form">
-                <input class="hidden" type="text" placeholder="Ім'я, група" required>
-                <input class="hidden" type="email" placeholder="Email" required>
-                <textarea class="hidden" placeholder="Ваші питання" required></textarea>
-                <button class="hidden" type="submit">Підтвердити</button>
+            <h2 class="section-title light hidden">Зв'язок</h2>
+            <form class="contact-form hidden">
+                <input type="text" placeholder="Ім'я, група" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Ваші питання" required></textarea>
+                <button type="submit">Підтвердити</button>
             </form>
         </div>
     </section>
@@ -144,11 +138,9 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 КЄНТ. All rights reserved.</p>
+            <p>&copy; 2024 КЄНТ. Всі права захищені.</p>
         </div>
     </div>
 </footer>
-
-
 </body>
 </html>
