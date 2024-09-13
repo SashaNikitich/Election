@@ -35,7 +35,7 @@ const teamInfo = {
         role: "Ліцеїст 11-Б групи",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
-    "Гринь Максим": {
+    "Дідківський Андрій": {
         role: "Ліцеїст 11-Г групи",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
@@ -50,6 +50,10 @@ const teamInfo = {
     "Башинська Вікторія": {
         role: "Ліцеїстка 11-Б групи",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    "Владік": {
+        role: "Ліцеїстка 11-Б групи",
+        info: "Хз що сюди писати."
     }
 };
 
