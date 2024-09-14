@@ -51,9 +51,9 @@ const teamInfo = {
         role: "Ліцеїстка 11-Б групи",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
-    "Владік": {
-        role: "Ліцеїстка 11-Б групи",
-        info: "Хз що сюди писати."
+    "Волинець Владік": {
+        role: "Ліцеїст 11-Б групи",
+        info: "Владік моя фанатка. Посів 3 місце в обласній олімпіаді з ГЕОГРАФІЇ!!!!!!!!. А ще не грав в доту з 9 вересня.",
     }
 };
 
@@ -63,6 +63,7 @@ function openModal(content) {
     modalContent.appendChild(closeButton);
     modalContent.insertAdjacentHTML('beforeend', content);
     modal.style.display = 'block';
+    modal.style.overflow = 'hidden';
 }
 
 // Function to close the modal
