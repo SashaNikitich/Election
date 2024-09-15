@@ -31,6 +31,37 @@ body {
     padding: 0 20px;
 }
 
+/*Alert*/
+.alert {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+
+/* The close button */
+.close-btn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close-btn:hover {
+    color: black;
+}
+
+
 /* Header styles */
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
