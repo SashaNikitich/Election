@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>КЄНТ - Голосуй за прогрес</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/alert.js"></script>
     <script defer src="JS/modal.js"></script>
     <script defer src="JS/script.js"></script>
     <script defer src="JS/menu.js"></script>
@@ -14,6 +15,10 @@
 <body>
 <header>
     <div class="container">
+        <div class="alert">
+            <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Ваше повідомлення надіслано.
+        </div>
         <nav class="nav">
             <div class="logo"><img src="assets/logo.webp" alt="" height="50"></div>
             <button class="menu-btn" aria-label="Відкрити меню">
@@ -135,10 +140,10 @@
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title light hidden">Зв'язок</h2>
-            <form class="contact-form hidden" action="https://lybotapi.onrender.com/election" method="post">
-                <input type="text" placeholder="Ім'я, група" name="name" required>
-                <input type="email" placeholder="Email" name="email" required>
-                <textarea placeholder="Ваші питання" name="question" required></textarea>
+            <form class="contact-form hidden" action="https://lybotapi.onrender.com/election" method="post" onsubmit="return validateForm()">
+                <input type="text" placeholder="Ім'я, група" name="name" id="name" maxlength="100" required>
+                <input type="email" placeholder="Email" name="email" id="email" maxlength="50" required>
+                <textarea placeholder="Ваші питання" name="question" id="question" maxlength="3000" required></textarea>
                 <button type="submit">Підтвердити</button>
             </form>
         </div>

@@ -12,11 +12,3 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElement = document.querySelectorAll('.hidden');
 hiddenElement.forEach((el) => observer.observe(el));
-
-
-const urlParams = new URLSearchParams(window.location.search);
-
-const alertParam = urlParams.get("alert");
-if (alertParam != null){
-        alert(alertParam)
-}
