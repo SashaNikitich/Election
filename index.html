@@ -141,9 +141,9 @@
         <div class="container">
             <h2 class="section-title light hidden">Зв'язок</h2>
             <form class="contact-form hidden" action="https://lybotapi.onrender.com/election" method="post" onsubmit="return validateForm()">
-                <input type="text" placeholder="Ім'я, група" name="name" id="name" required>
-                <input type="email" placeholder="Email" name="email" id="email" required>
-                <textarea placeholder="Ваші питання" name="question" id="question" required></textarea>
+                <input type="text" placeholder="Ім'я, група" name="name" id="name" maxlength="100" required>
+                <input type="email" placeholder="Email" name="email" id="email" maxlength="50" required>
+                <textarea placeholder="Ваші питання" name="question" id="question" maxlength="3000" required></textarea>
                 <button type="submit">Підтвердити</button>
             </form>
         </div>
