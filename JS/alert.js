@@ -3,6 +3,7 @@ var i;
 
 function open_alert() {
     var alert = document.getElementsByClassName("alert")[0];
+    
     alert.style.display = "block";
     alert.style.opacity = "1";
 
@@ -12,6 +13,8 @@ function open_alert() {
     }, 3000);
 }
 
+
+//Validation
 function validateForm() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -19,10 +22,10 @@ function validateForm() {
 
     if (name === "" || email === "" || question === "") {
         alert("Please fill in all fields.");
-        return false;  // Prevent form submission
+        return false;
     } else {
-        open_alert();  // Show the alert if the form is valid
-        return true;   // Allow form submission
+        open_alert();
+        return true;
     }
 }
 
