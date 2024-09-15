@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>КЄНТ - Голосуй за прогрес</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/alert.js"></script>
     <script defer src="JS/modal.js"></script>
     <script defer src="JS/script.js"></script>
     <script defer src="JS/menu.js"></script>
@@ -139,16 +140,16 @@
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title light hidden">Зв'язок</h2>
-            <form class="contact-form hidden" action="https://lybotapi.onrender.com/election" method="post">
-                <input type="text" placeholder="Ім'я, група" name="name" required>
-                <input type="email" placeholder="Email" name="email" required>
-                <textarea placeholder="Ваші питання" name="question" required></textarea>
+            <form class="contact-form hidden" action="https://lybotapi.onrender.com/election" method="post" onsubmit="return validateForm()">
+                <input type="text" placeholder="Ім'я, група" name="name" id="name" required>
+                <input type="email" placeholder="Email" name="email" id="email" required>
+                <textarea placeholder="Ваші питання" name="question" id="question" required></textarea>
                 <button type="submit">Підтвердити</button>
             </form>
         </div>
     </section>
 </main>
-<button onclick="open_alert()">test</button>
+
 <footer>
     <div class="container">
         <div class="footer-content">
