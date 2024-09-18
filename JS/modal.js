@@ -24,31 +24,31 @@ document.body.appendChild(modal);
 // Team member information
 const teamInfo = {
     "Нікітіч Олександр": {
-        role: "Ліцеїст 11-Б групи",
+        role: "Кандидат голови Ради ліцеїстів",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "Максим Шапіренко": {
-        role: "Ліцеїст 11-Б групи",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    "Артем Тищенко": {
-        role: "Ліцеїст 11-Б групи",
+        role: "Зам голови ради ліцеїстів",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "Дідківський Андрій": {
-        role: "Ліцеїст 11-Г групи",
+        role: "Інформаційний сектор",
+        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    "Дєдух Ілля": {
+        role: "Спортивний сектор",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "Смолянова Ніка": {
-        role: "Ліцеїстка 11-Б групи",
+        role: "Green-сектор",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "Скримінська Оксана": {
-        role: "Ліцеїстка 11-Б групи",
+        role: "Leader-сектор",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "Башинська Вікторія": {
-        role: "Ліцеїстка 11-Б групи",
+        role: "Благодійність",
         info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     "Волинець Владік": {
