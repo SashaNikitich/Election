@@ -10,10 +10,11 @@
     <script defer src="JS/script.js"></script>
     <script defer src="JS/menu.js"></script>
     <script defer src="JS/scroll.js"></script>
+    <script defer src="JS/fixed-header.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-<header>
+<header id="header">
     <div class="container">
         <div class="alert">
             <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
@@ -45,7 +46,7 @@
     </div>
 </header>
 
-<main>
+<main id="main">
     <section id="platform" class="section">
         <div class="container">
             <h2 class="section-title hidden">Наші плани</h2>
