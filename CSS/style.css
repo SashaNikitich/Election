@@ -315,7 +315,7 @@ header {
 
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 50px auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
@@ -433,6 +433,9 @@ footer {
         z-index: 100;
     }
 
+    .team img {
+        height: auto;
+    }
     .logo img {
         height: 40px;
     }
@@ -523,7 +526,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .team button {
+    .team-button {
         background-color: var(--primary-color);
         color: white;
         border: none;
