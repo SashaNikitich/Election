@@ -24,32 +24,33 @@ document.body.appendChild(modal);
 // Team member information
 const teamInfo = {
     "Нікітіч Олександр": {
-        role: "Кандидат голови Ради ліцеїстів",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        role: "Кандидат на пост голови",
+        info: "Олександр, анімешник, дурачок і програміст, вирішив стати головою ради ліцеїстів. Уже бачить себе на нарадах з чашкою чаю, мріючи про НМТ на 200 і роботу програмістом. Хто сказав, що справжній лідер не може бути з почуттям гумору і програмувати на Scratch?"
     },
     "Максим Шапіренко": {
         role: "Зам голови ради ліцеїстів",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        info: "Я звичайний хлопець, зі звичайним життям, але дещо про мене не знає ніхто і це моя таємниця... А якщо серйозно то I'm batman. Ну все тепер точно жарти в сторону... Я трохи розумний, трохи спортивний, трохи активний, коротше всього потроху, ну це вдень а вночі I'm batman"
     },
     "Дідківський Андрій": {
         role: "Інформаційний сектор",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        info: "Тут має бути якась інформація про мене, але воно вам не потрібно і я сам не знаю про, що написати, загалом нічого цікавого, ну максимум хожу в зальчик"
     },
     "Дєдух Ілля": {
         role: "Спортивний сектор",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        info: "Істота роду приматів родини гомінід, виду Homo sapiens. Начинки: вміє ходити, говорити, грати в ігри. Знання: математика, англійська і українська мови.\n" +
+            "Потрібно бути з ним обережним, не завжди дружелюбний до інших."
     },
     "Смолянова Ніка": {
         role: "Green-сектор",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        info: "Я - Ніка, не Ніна :) Навчаюсь в 11-Б групі. Відношусь до того типу людей, який живе найближче до ліцею, але майже завжди не встигає і біжить на пару. Обожнюю ловити класні моментики на камеру, грати у бадмінтон. Та найбільша моя любов - то котики🫶🏻"
     },
     "Скримінська Оксана": {
         role: "Leader-сектор",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        info: "Лідерка 11-Б групи, весела, активна як і у житті ліцею так і поза межами, відповідальна- тому скарги і пропозиції вітатимуться, постараюся разом із командою зробити цей рік цікавим та веселим"
     },
     "Башинська Вікторія": {
         role: "Благодійність",
-        info: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        info: "Активна волонтерка на всіляких заходах міста - і спортивних, і патріотичних дуже творча особистість,отримала Грант та створила власний проєкт «Творча Вежа»💙 ну і ще з цікавенького – займається веслуванням на човнах «Дракон» та брала участь в Чемпіонаті України 2024🐉"
     },
     "Волинець Владік": {
         role: "Ліцеїст 11-Б групи",
